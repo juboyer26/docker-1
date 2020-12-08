@@ -1,0 +1,4 @@
+docker inspect -f '{{ .NetworkSettings.IPAddress }}' overlord
+
+#https://docs.docker.com/engine/reference/commandline/inspect/
+#https://stackoverflow.com/questions/43692961/how-to-get-ip-address-of-running-docker-container/43694284

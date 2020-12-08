@@ -1,0 +1,3 @@
+eval $(docker-machine env --shell bash Char)
+
+#https://docs.docker.com/machine/reference/env/

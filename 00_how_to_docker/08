@@ -1,0 +1,5 @@
+docker run -it --rm alpine /bin/sh
+
+#https://docs.docker.com/engine/reference/run/
+#https://www.powercms.in/article/how-automatically-delete-docker-container-after-running-it
+#test cat /etc/os-release

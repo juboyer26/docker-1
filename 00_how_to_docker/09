@@ -1,0 +1,6 @@
+#create the debian with name debian-buster in interective mode
+#docker run --name debian-buster1 -it debian /bin/bash // "apt-get" is a command that installs packages on linux(debian)
+
+apt-get update
+apt-get upgrade 
+apt-get install build-essential git

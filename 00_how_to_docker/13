@@ -1,0 +1,4 @@
+docker inspect -f '{{.Config.Env}}' spawning-pool
+
+#https://docs.docker.com/engine/reference/commandline/inspect/
+#docker inspect -f - get info while unsure if the container is running

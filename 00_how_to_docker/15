@@ -1,0 +1,4 @@
+docker run --name roach-warden -d -p 8081:80 --link spawning-pool:db  phpmyadmin/phpmyadmin
+
+#https://hub.docker.com/r/phpmyadmin/phpmyadmin/
+#[Name of container]:database phpmyadmin/phpmyadmin - give permision to explore the database
