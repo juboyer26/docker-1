@@ -1,0 +1,4 @@
+docker rmi -f $(docker images -a -q)
+
+#https://docs.docker.com/engine/reference/commandline/rmi/
+#https://docs.docker.com/engine/reference/commandline/images/
