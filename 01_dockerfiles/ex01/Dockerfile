@@ -17,3 +17,4 @@ ENTRYPOINT sh ts3server_minimal_runscript.sh
 
 #docker build -t ex01 .
 #docker run --rm -p 9987:9987/udp -p 10011:10011 -p 30033:30033 ex01
+#https://www.digitalocean.com/community/questions/fast-easy-tutorial-setup-teamspeak-server-on-debian-9-7
